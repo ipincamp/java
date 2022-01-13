@@ -1,0 +1,23 @@
+name: Java Course
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK 17
+      uses: actions/setup-java@v2
+      with:
+        java-version: '17'
+        distribution: 'microsoft'
+        cache: maven
+    - name: Build Main Project
+      run: mvn package --file pom.xml
