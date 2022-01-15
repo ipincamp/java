@@ -1,9 +1,10 @@
-# Package Files #
-*.iml
-.idea/*
+# Directory #
 
-# Folders
-.idea
-out
-test
-target
+.idea/
+test/
+out/
+target/
+
+# Package Files #
+
+*.iml
