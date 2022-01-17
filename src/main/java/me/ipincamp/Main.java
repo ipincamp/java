@@ -9,7 +9,8 @@ public class Main {
          * this is a basic course in 2020.
          * I made this repository as my documentation in the future.
          *
-         * Source: Alexzander Flores
+         * Source: WornOffKeys: Alexzander Flores
+         *         w3schools  : https://www.w3schools.com/java/default.asp
          */
         System.out.println("ipincamp > Don\'t waste your time!");
     }
